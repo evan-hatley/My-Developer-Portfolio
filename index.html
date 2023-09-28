@@ -10,40 +10,49 @@
 <!-- This creates the header and naviagtion to articles further down -->
 <header>
 <h1 class="header"> Evan Hatley's Portfolio </h1>
-
 </header>
+
+<!-- I originally had the nav section in the header. I decided I wanted it to be a separated element, so I moved it below the header and center the content.  -->
 <nav class="nav">
     <ul>
-         <li><a href="#About-Me"></a> About Me </li>
-         <li><a href="#My-Work"></a> My Work </li>
-         <li><a href="#Contact-Page"></a> Contact Me </li>
+         <li><a href="#About-Me"> About Me</a> </li>
+         <li><a href="#My-Work"> My Work</a> </li>
+         <li><a href="#Contact-Page"> Contact Me</a> </li>
         </ul>
 </nav>
 
-<section class="About-Me">
+<section class="About-Me" id="About-Me">
 <h2>About Me</h2>
     <p>My name is Evan Hatley, and I am a coding bootcamp student. I made this portfolio to demonstrate my HTML and CSS skills. I graduated from KU in 2018, and now live in Kansas City. I have 2 wonderful cats, and one that's just alright. I enjoy playing bass for punk music, cooking, and reading graphic novels!
     </p>
-<img src="./images/myprofilepic.jpg" width="80%" height="80%">
+<img src="./images/myprofilepic.jpg" width="60%" height="60%">
 </section> 
 
-<section class="My-Work">
+<!-- I don't have any projects to link to as a portfolio yet. Will update this site as I learn and create more. -->
+<section class="My-Work" id="My-Work">
     <h2>My Work So Far!</h2>
-<a href="https://www.google.com/"> My first Project</a>
+    <div>
+        <!-- I took this photo myself working at Riot Fest 2016 -->
+<a href="https://www.google.com/">
+<img src="./images/newbackground.jpg" width="60%" height="60%" alt="My First Project">
+</div>
 
-    </image-background>
-</image-background>
+<div>
+    <!-- I wanted to use another image that showcases my interests while mainitng size ratio -->
+    <a href="https://www.google.com/">
+    <img src="images/Pad-Thai-S1.jpg" width="40%" height="40%" alt="My Second Project">
+    </a>
+</div>
 </section>
 
-<footer class="Contact-Page">
-    <h3>
-        Contact Me!
-    </h3>
-<ul>
+<!-- I'd like to make the phone number clickable, but haven't figured it out yet. -->
+<footer class="Contact-Page" id="Contact-Page">
+    <h3> Contact Me! </h3>
     <li> Phone: (913)-961-5525</li>
     <li> Email: eahatley@gmail.com</li>
     <li> <a href="https://www.linkedin.com/in/evan-hatley-020033158/"> Add Me on LinkedIn! </a> </li>
 </ul>
+
 </footer>
 </body>
 

@@ -1,14 +1,17 @@
+
+/* I'd really like to align some content left and right, but it would make the the nav bar useless with everything condensed. */
 * {
     box-sizing: border-box;
     padding: 5px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 3px;
+    border-radius: 10px;
     text-align: center;
 }
 
 header {
     text-align: center;
     background-color: #8aa29e;
+    color: azure;
   }
 
 nav  {
@@ -19,11 +22,12 @@ nav  {
    justify-content: space-evenly;
    text-decoration: underline;
   }
-
+/* cursor does actually navigate to the correct element, it just needs to be very specific on the the page. It works when clicking in the bottom left corner of the text. I'm not sure why it won't link with the full text */
   nav ul li {
     display: inline;
     text-transform: uppercase;
    text-align: center;
+   cursor: pointer;
 
   }
 
@@ -32,19 +36,23 @@ nav  {
     text-align: center;
 
 }
-
+/* I don't have any projects to link to as a portfolio yet. Will update this site as I learn and create more. */
 .My-Work {
   background-color: #cbddeb;
   text-align: center;
 }
-
+/* Please don't doxx me */
 .Contact-Page {
-
     background-color: #686963;
     text-align: center;
     list-style-type: none;
 }
 
+.Contact-Page h3 {
+  color: blue;
+}
+
 .Contact-Page ul {
   list-style-type: none;
+  cursor: pointer;
 }
