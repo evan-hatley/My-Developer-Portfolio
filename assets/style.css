@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background-color: #8aa29e;
+  }
+
+nav  {
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(161, 2, 2);
+   justify-content: space-evenly;
+   text-decoration: underline;
+  }
+
+  nav ul li {
+    display: inline;
+    text-transform: uppercase;
+   text-align: center;
+
+  }
+
+.About-Me {
+    background-color: #e3f2d2;
+    text-align: center;
+
+}
+
+.My-Work {
+  background-color: #cbddeb;
+  text-align: center;
+}
+
+.Contact-Page {
+
+    background-color: #686963;
+    text-align: center;
+    list-style-type: none;
+}
+
+.Contact-Page ul {
+  list-style-type: none;
+}
